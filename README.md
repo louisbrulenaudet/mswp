@@ -1,5 +1,6 @@
 # Tidy, a decorator that clears temporary local variables upon function execution, preventing clutter and mitigating memory leaks
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg)](https://badge.fury.io/py/tensorflow) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![Maintainer](https://img.shields.io/badge/maintainer-@louisbrulenaudet-blue)
+
 Tidy is a Python decorator designed to enhance code cleanliness and mitigate potential memory leaks by automatically clearing temporary local variables after function execution.
 
 ## Overview
