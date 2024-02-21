@@ -1,0 +1,39 @@
+[project]
+name = "tsdae"
+version = "1.0.0"
+description = "A decorator that automatically clears temporary local variables upon function execution, effectively preventing clutter and mitigating memory leaks."
+readme = "README.md"
+keywords = ["decorator", "memory", "memory-leaks", "performance", "variables", "security", "scalling"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[options]
+packages = ["find:"]
+
+[metadata]
+name = "tidy"
+version = "1.0.0"
+license = "Apache License 2.0"
+author = "Louis Brulé Naudet"
+author_email = "louisbrulenaudet@icloud.com"
+description = "A decorator that automatically clears temporary local variables upon function execution, effectively preventing clutter and mitigating memory leaks."
+long_description = "file: README.md"
+long_description_content_type = "text/markdown"
+url = "https://github.com/louisbrulenaudet/tidy"
+homepage = "https://github.com/louisbrulenaudet/tidy"
+project_urls = {repository = "https://github.com/louisbrulenaudet/tidy"}
+keywords =  "decorator memory-leaks memory variables security ram performance"
