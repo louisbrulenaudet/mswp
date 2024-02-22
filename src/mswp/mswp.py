@@ -10,7 +10,7 @@
 
 import functools
 
-def tidy(func):
+def clear(func):
     """
     A decorator that cleans up temporary local variables used within a function after its execution.
 

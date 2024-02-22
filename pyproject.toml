@@ -1,5 +1,5 @@
 [project]
-name = "tsdae"
+name = "mswp"
 version = "1.0.0"
 description = "A decorator that automatically clears temporary local variables upon function execution, effectively preventing clutter and mitigating memory leaks."
 readme = "README.md"
@@ -25,7 +25,7 @@ build-backend = "setuptools.build_meta"
 packages = ["find:"]
 
 [metadata]
-name = "tidy"
+name = "mswp"
 version = "1.0.0"
 license = "Apache License 2.0"
 author = "Louis Brulé Naudet"
@@ -33,7 +33,7 @@ author_email = "louisbrulenaudet@icloud.com"
 description = "A decorator that automatically clears temporary local variables upon function execution, effectively preventing clutter and mitigating memory leaks."
 long_description = "file: README.md"
 long_description_content_type = "text/markdown"
-url = "https://github.com/louisbrulenaudet/tidy"
-homepage = "https://github.com/louisbrulenaudet/tidy"
-project_urls = {repository = "https://github.com/louisbrulenaudet/tidy"}
+url = "https://github.com/louisbrulenaudet/mswp"
+homepage = "https://github.com/louisbrulenaudet/mswp"
+project_urls = {repository = "https://github.com/louisbrulenaudet/mswp"}
 keywords =  "decorator memory-leaks memory variables security ram performance"

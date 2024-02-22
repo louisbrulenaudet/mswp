@@ -4,4 +4,4 @@
 # For example, you might define a variable like this:
 # version = "1.0.0"
 
-from tidy.tidy import tidy
+from mswp.mswp import clear
